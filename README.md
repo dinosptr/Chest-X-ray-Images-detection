@@ -1,3 +1,5 @@
+Link Demo: [Covid19-detection with Chest X-ray Image](https://chest-x-ray-images-detection.streamlit.app/)
+
 # Proyek Akhir: COVID-19 Diagnosis Using CNN from Scratch with Negative Transformation and Gaussian Low Pass Filter on Chest X-ray Images
 Proyek akhir dari program AI Talent Academy melibatkan pembuatan sebuah model AI untuk diagnosis COVID-19 menggunakan Convolutional Neural Network (CNN) dari awal dengan menerapkan transformasi negatif dan filter Gaussian low pass pada gambar rontgen dada. Hasil dari proyek ini dirangkum dalam sebuah draft paper dengan judul: "COVID-19 Diagnosis Using CNN from Scratch with Negative Transformation and Gaussian Low Pass Filter on Chest X-ray Images".
 
