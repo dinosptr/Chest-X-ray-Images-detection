@@ -8,11 +8,11 @@ def load_model(model_path):
     return model
 
 def preprocess_image(image):
-    # Resize image to target size
+    # Mengubah ukuran gambar
     image = image.resize((170, 170))
-    # Convert image to array
+    # Ubah gambar menjadi array
     image = np.asarray(image) / 255.0
-    # Expand dimensions to match model input shape
+    # Menambah dimensi untuk menyesuaikan dengan shape model
     image = np.expand_dims(image, axis=0)
     return image
 
@@ -36,7 +36,7 @@ def main():
     st.write("Silakan unggah gambar X-ray dada untuk melakukan prediksi apakah pasien terinfeksi COVID-19 atau tidak.")
     
     sidebar_icon = ":bar_chart:"
-    st.sidebar.markdown(f"## :microscope: Covid Detection")
+    st.sidebar.markdown(f"## :microscope: COVID-19 Detection")
     st.sidebar.write("Selamat datang di aplikasi deteksi COVID-19.")
     st.sidebar.write("Silakan unggah gambar X-ray dada di panel utama untuk memulai prediksi.")
 
